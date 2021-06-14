@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C01F113B267824AB00560300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F113A267824AB00560300 /* AppDelegate.swift */; };
+		C01F113D267824AB00560300 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F113C267824AB00560300 /* GameViewController.swift */; };
+		C01F1140267824AB00560300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F113E267824AB00560300 /* Main.storyboard */; };
+		C01F1143267824AB00560300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F1141267824AB00560300 /* LaunchScreen.storyboard */; };
+		C01F1148267824AB00560300 /* GyroBlocks.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C01F1147267824AB00560300 /* GyroBlocks.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C01F114E267824AB00560300 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F114C267824AB00560300 /* Interface.storyboard */; };
+		C01F1155267824AB00560300 /* GyroBlocks Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C01F1154267824AB00560300 /* GyroBlocks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C01F115A267824AB00560300 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F1159267824AB00560300 /* InterfaceController.swift */; };
+		C01F115C267824AB00560300 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F115B267824AB00560300 /* ExtensionDelegate.swift */; };
+		C01F1165267824AB00560300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F1164267824AB00560300 /* AppDelegate.swift */; };
+		C01F1167267824AB00560300 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F1166267824AB00560300 /* GameViewController.swift */; };
+		C01F116A267824AB00560300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F1168267824AB00560300 /* Main.storyboard */; };
+		C01F116D267824AB00560300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F116B267824AB00560300 /* LaunchScreen.storyboard */; };
+		C01F1176267824AB00560300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F1175267824AB00560300 /* AppDelegate.swift */; };
+		C01F1178267824AB00560300 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F1177267824AB00560300 /* GameViewController.swift */; };
+		C01F117B267824AB00560300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F1179267824AB00560300 /* Main.storyboard */; };
+		C01F117E267824AB00560300 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C01F112F267824AA00560300 /* Actions.sks */; };
+		C01F117F267824AB00560300 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C01F112F267824AA00560300 /* Actions.sks */; };
+		C01F1180267824AB00560300 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C01F112F267824AA00560300 /* Actions.sks */; };
+		C01F1181267824AB00560300 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C01F1130267824AA00560300 /* GameScene.sks */; };
+		C01F1182267824AB00560300 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C01F1130267824AA00560300 /* GameScene.sks */; };
+		C01F1183267824AB00560300 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C01F1130267824AA00560300 /* GameScene.sks */; };
+		C01F1184267824AB00560300 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C01F1130267824AA00560300 /* GameScene.sks */; };
+		C01F1185267824AB00560300 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F1131267824AA00560300 /* GameScene.swift */; };
+		C01F1186267824AB00560300 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F1131267824AA00560300 /* GameScene.swift */; };
+		C01F1187267824AB00560300 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F1131267824AA00560300 /* GameScene.swift */; };
+		C01F1188267824AB00560300 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F1131267824AA00560300 /* GameScene.swift */; };
+		C01F1189267824AB00560300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01F1132267824AB00560300 /* Assets.xcassets */; };
+		C01F118A267824AB00560300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01F1132267824AB00560300 /* Assets.xcassets */; };
+		C01F118B267824AB00560300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01F1132267824AB00560300 /* Assets.xcassets */; };
+		C01F118C267824AB00560300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01F1132267824AB00560300 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01F1149267824AB00560300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01F112A267824AA00560300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01F1146267824AB00560300;
+			remoteInfo = "GyroBlocks watchOS App";
+		};
+		C01F1156267824AB00560300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01F112A267824AA00560300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01F1153267824AB00560300;
+			remoteInfo = "GyroBlocks watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C01F1192267824AB00560300 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C01F1155267824AB00560300 /* GyroBlocks Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F1196267824AB00560300 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C01F1148267824AB00560300 /* GyroBlocks.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C01F112F267824AA00560300 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C01F1130267824AA00560300 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C01F1131267824AA00560300 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C01F1132267824AB00560300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01F1137267824AB00560300 /* GyroBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F113A267824AB00560300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C01F113C267824AB00560300 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C01F113F267824AB00560300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01F1142267824AB00560300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C01F1144267824AB00560300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01F1147267824AB00560300 /* GyroBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F114D267824AB00560300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C01F114F267824AB00560300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01F1154267824AB00560300 /* GyroBlocks Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GyroBlocks Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F1159267824AB00560300 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C01F115B267824AB00560300 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C01F115D267824AB00560300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01F1162267824AB00560300 /* GyroBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F1164267824AB00560300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C01F1166267824AB00560300 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C01F1169267824AB00560300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01F116C267824AB00560300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C01F116E267824AB00560300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01F1173267824AB00560300 /* GyroBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F1175267824AB00560300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C01F1177267824AB00560300 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C01F117A267824AB00560300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01F117C267824AB00560300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01F117D267824AB00560300 /* GyroBlocks_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GyroBlocks_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01F1134267824AB00560300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F1151267824AB00560300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F115F267824AB00560300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F1170267824AB00560300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C01F1129267824AA00560300 = {
+			isa = PBXGroup;
+			children = (
+				C01F112E267824AA00560300 /* GyroBlocks Shared */,
+				C01F1139267824AB00560300 /* GyroBlocks iOS */,
+				C01F114B267824AB00560300 /* GyroBlocks watchOS App */,
+				C01F1158267824AB00560300 /* GyroBlocks watchOS App Extension */,
+				C01F1163267824AB00560300 /* GyroBlocks tvOS */,
+				C01F1174267824AB00560300 /* GyroBlocks macOS */,
+				C01F1138267824AB00560300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01F112E267824AA00560300 /* GyroBlocks Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C01F112F267824AA00560300 /* Actions.sks */,
+				C01F1130267824AA00560300 /* GameScene.sks */,
+				C01F1131267824AA00560300 /* GameScene.swift */,
+				C01F1132267824AB00560300 /* Assets.xcassets */,
+			);
+			path = "GyroBlocks Shared";
+			sourceTree = "<group>";
+		};
+		C01F1138267824AB00560300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01F1137267824AB00560300 /* GyroBlocks.app */,
+				C01F1147267824AB00560300 /* GyroBlocks.app */,
+				C01F1154267824AB00560300 /* GyroBlocks Extension.appex */,
+				C01F1162267824AB00560300 /* GyroBlocks.app */,
+				C01F1173267824AB00560300 /* GyroBlocks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01F1139267824AB00560300 /* GyroBlocks iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C01F113A267824AB00560300 /* AppDelegate.swift */,
+				C01F113C267824AB00560300 /* GameViewController.swift */,
+				C01F113E267824AB00560300 /* Main.storyboard */,
+				C01F1141267824AB00560300 /* LaunchScreen.storyboard */,
+				C01F1144267824AB00560300 /* Info.plist */,
+			);
+			path = "GyroBlocks iOS";
+			sourceTree = "<group>";
+		};
+		C01F114B267824AB00560300 /* GyroBlocks watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				C01F114C267824AB00560300 /* Interface.storyboard */,
+				C01F114F267824AB00560300 /* Info.plist */,
+			);
+			path = "GyroBlocks watchOS App";
+			sourceTree = "<group>";
+		};
+		C01F1158267824AB00560300 /* GyroBlocks watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C01F1159267824AB00560300 /* InterfaceController.swift */,
+				C01F115B267824AB00560300 /* ExtensionDelegate.swift */,
+				C01F115D267824AB00560300 /* Info.plist */,
+			);
+			path = "GyroBlocks watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		C01F1163267824AB00560300 /* GyroBlocks tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				C01F1164267824AB00560300 /* AppDelegate.swift */,
+				C01F1166267824AB00560300 /* GameViewController.swift */,
+				C01F1168267824AB00560300 /* Main.storyboard */,
+				C01F116B267824AB00560300 /* LaunchScreen.storyboard */,
+				C01F116E267824AB00560300 /* Info.plist */,
+			);
+			path = "GyroBlocks tvOS";
+			sourceTree = "<group>";
+		};
+		C01F1174267824AB00560300 /* GyroBlocks macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C01F1175267824AB00560300 /* AppDelegate.swift */,
+				C01F1177267824AB00560300 /* GameViewController.swift */,
+				C01F1179267824AB00560300 /* Main.storyboard */,
+				C01F117C267824AB00560300 /* Info.plist */,
+				C01F117D267824AB00560300 /* GyroBlocks_macOS.entitlements */,
+			);
+			path = "GyroBlocks macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01F1136267824AB00560300 /* GyroBlocks iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F1197267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks iOS" */;
+			buildPhases = (
+				C01F1133267824AB00560300 /* Sources */,
+				C01F1134267824AB00560300 /* Frameworks */,
+				C01F1135267824AB00560300 /* Resources */,
+				C01F1196267824AB00560300 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01F114A267824AB00560300 /* PBXTargetDependency */,
+			);
+			name = "GyroBlocks iOS";
+			productName = "GyroBlocks iOS";
+			productReference = C01F1137267824AB00560300 /* GyroBlocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01F1146267824AB00560300 /* GyroBlocks watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F1193267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks watchOS App" */;
+			buildPhases = (
+				C01F1145267824AB00560300 /* Resources */,
+				C01F1192267824AB00560300 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01F1157267824AB00560300 /* PBXTargetDependency */,
+			);
+			name = "GyroBlocks watchOS App";
+			productName = "GyroBlocks watchOS App";
+			productReference = C01F1147267824AB00560300 /* GyroBlocks.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C01F1153267824AB00560300 /* GyroBlocks watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F118F267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks watchOS App Extension" */;
+			buildPhases = (
+				C01F1150267824AB00560300 /* Sources */,
+				C01F1151267824AB00560300 /* Frameworks */,
+				C01F1152267824AB00560300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GyroBlocks watchOS App Extension";
+			productName = "GyroBlocks watchOS App Extension";
+			productReference = C01F1154267824AB00560300 /* GyroBlocks Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		C01F1161267824AB00560300 /* GyroBlocks tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F119A267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks tvOS" */;
+			buildPhases = (
+				C01F115E267824AB00560300 /* Sources */,
+				C01F115F267824AB00560300 /* Frameworks */,
+				C01F1160267824AB00560300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GyroBlocks tvOS";
+			productName = "GyroBlocks tvOS";
+			productReference = C01F1162267824AB00560300 /* GyroBlocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01F1172267824AB00560300 /* GyroBlocks macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F119D267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks macOS" */;
+			buildPhases = (
+				C01F116F267824AB00560300 /* Sources */,
+				C01F1170267824AB00560300 /* Frameworks */,
+				C01F1171267824AB00560300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GyroBlocks macOS";
+			productName = "GyroBlocks macOS";
+			productReference = C01F1173267824AB00560300 /* GyroBlocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01F112A267824AA00560300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C01F1136267824AB00560300 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C01F1146267824AB00560300 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C01F1153267824AB00560300 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C01F1161267824AB00560300 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C01F1172267824AB00560300 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = C01F112D267824AA00560300 /* Build configuration list for PBXProject "GyroBlocks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01F1129267824AA00560300;
+			productRefGroup = C01F1138267824AB00560300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01F1136267824AB00560300 /* GyroBlocks iOS */,
+				C01F1146267824AB00560300 /* GyroBlocks watchOS App */,
+				C01F1153267824AB00560300 /* GyroBlocks watchOS App Extension */,
+				C01F1161267824AB00560300 /* GyroBlocks tvOS */,
+				C01F1172267824AB00560300 /* GyroBlocks macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01F1135267824AB00560300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F1181267824AB00560300 /* GameScene.sks in Resources */,
+				C01F1140267824AB00560300 /* Main.storyboard in Resources */,
+				C01F117E267824AB00560300 /* Actions.sks in Resources */,
+				C01F1143267824AB00560300 /* LaunchScreen.storyboard in Resources */,
+				C01F1189267824AB00560300 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F1145267824AB00560300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F118A267824AB00560300 /* Assets.xcassets in Resources */,
+				C01F114E267824AB00560300 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F1152267824AB00560300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F1182267824AB00560300 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F1160267824AB00560300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F1183267824AB00560300 /* GameScene.sks in Resources */,
+				C01F116A267824AB00560300 /* Main.storyboard in Resources */,
+				C01F117F267824AB00560300 /* Actions.sks in Resources */,
+				C01F116D267824AB00560300 /* LaunchScreen.storyboard in Resources */,
+				C01F118B267824AB00560300 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F1171267824AB00560300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F117B267824AB00560300 /* Main.storyboard in Resources */,
+				C01F1184267824AB00560300 /* GameScene.sks in Resources */,
+				C01F118C267824AB00560300 /* Assets.xcassets in Resources */,
+				C01F1180267824AB00560300 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01F1133267824AB00560300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F1185267824AB00560300 /* GameScene.swift in Sources */,
+				C01F113D267824AB00560300 /* GameViewController.swift in Sources */,
+				C01F113B267824AB00560300 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F1150267824AB00560300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F1186267824AB00560300 /* GameScene.swift in Sources */,
+				C01F115C267824AB00560300 /* ExtensionDelegate.swift in Sources */,
+				C01F115A267824AB00560300 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F115E267824AB00560300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F1187267824AB00560300 /* GameScene.swift in Sources */,
+				C01F1167267824AB00560300 /* GameViewController.swift in Sources */,
+				C01F1165267824AB00560300 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F116F267824AB00560300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F1188267824AB00560300 /* GameScene.swift in Sources */,
+				C01F1178267824AB00560300 /* GameViewController.swift in Sources */,
+				C01F1176267824AB00560300 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01F114A267824AB00560300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01F1146267824AB00560300 /* GyroBlocks watchOS App */;
+			targetProxy = C01F1149267824AB00560300 /* PBXContainerItemProxy */;
+		};
+		C01F1157267824AB00560300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01F1153267824AB00560300 /* GyroBlocks watchOS App Extension */;
+			targetProxy = C01F1156267824AB00560300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C01F113E267824AB00560300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F113F267824AB00560300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C01F1141267824AB00560300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F1142267824AB00560300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C01F114C267824AB00560300 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F114D267824AB00560300 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		C01F1168267824AB00560300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F1169267824AB00560300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C01F116B267824AB00560300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F116C267824AB00560300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C01F1179267824AB00560300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F117A267824AB00560300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01F118D267824AB00560300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C01F118E267824AB00560300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C01F1190267824AB00560300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GyroBlocks watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "GyroBlocks Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		C01F1191267824AB00560300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GyroBlocks watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "GyroBlocks Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		C01F1194267824AB00560300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = GyroBlocks_Extension;
+				INFOPLIST_FILE = "GyroBlocks watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks.watchkitapp;
+				PRODUCT_NAME = GyroBlocks;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		C01F1195267824AB00560300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = GyroBlocks_Extension;
+				INFOPLIST_FILE = "GyroBlocks watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks.watchkitapp;
+				PRODUCT_NAME = GyroBlocks;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		C01F1198267824AB00560300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GyroBlocks iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks;
+				PRODUCT_NAME = GyroBlocks;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01F1199267824AB00560300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GyroBlocks iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks;
+				PRODUCT_NAME = GyroBlocks;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01F119B267824AB00560300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GyroBlocks tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks;
+				PRODUCT_NAME = GyroBlocks;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Debug;
+		};
+		C01F119C267824AB00560300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GyroBlocks tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks;
+				PRODUCT_NAME = GyroBlocks;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01F119E267824AB00560300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GyroBlocks macOS/GyroBlocks_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GyroBlocks macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks;
+				PRODUCT_NAME = GyroBlocks;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C01F119F267824AB00560300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GyroBlocks macOS/GyroBlocks_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GyroBlocks macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filedesless.GyroBlocks;
+				PRODUCT_NAME = GyroBlocks;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01F112D267824AA00560300 /* Build configuration list for PBXProject "GyroBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F118D267824AB00560300 /* Debug */,
+				C01F118E267824AB00560300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01F118F267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F1190267824AB00560300 /* Debug */,
+				C01F1191267824AB00560300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01F1193267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F1194267824AB00560300 /* Debug */,
+				C01F1195267824AB00560300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01F1197267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F1198267824AB00560300 /* Debug */,
+				C01F1199267824AB00560300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01F119A267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F119B267824AB00560300 /* Debug */,
+				C01F119C267824AB00560300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01F119D267824AB00560300 /* Build configuration list for PBXNativeTarget "GyroBlocks macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F119E267824AB00560300 /* Debug */,
+				C01F119F267824AB00560300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01F112A267824AA00560300 /* Project object */;
+}
